@@ -3,15 +3,15 @@ package command;
 public class Sound {
 	
 	public void on() {
-		System.out.println("Som: Ligando...");
+		System.out.println("Som: ligado");
 	}
 	
 	public void off() {
-		System.out.println("Desligando o som");
+		System.out.println("Som: desligado");
 	}
 	
 	public void setCd() {
-		System.out.println("Lendo CD");
+		System.out.println("Som: lendo CD");
 	}
 	
 	public void setDvd() {
@@ -23,6 +23,6 @@ public class Sound {
 	}
 	
 	public void setVolume() {
-		System.out.println("Ajustando volume");
+		System.out.println("Som: ajustando volume");
 	}
 }

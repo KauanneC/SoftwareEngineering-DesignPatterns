@@ -1,8 +1,7 @@
+Alarme: ligado
 Luz: acesa
-Garegem: Aberta
-CD: Existe um DVD no dispositivo
-A jacuzzi estava ligada
-Luz: acesa
-Garegem: Aberta
-CD: Existe um DVD no dispositivo
-A jacuzzi estava ligada
+Televisão: ligada com o volume em 45
+Ventilado: médio
+Garegem: Fechado
+Som: desligado
+Jacuzzi: desligada

@@ -3,7 +3,7 @@ package command;
 public class Light {
 	
 	public void on() {
-		System.out.println("Luz acessa");
+		System.out.println("Luz: acesa");
 	}
 	
 	public void off() {

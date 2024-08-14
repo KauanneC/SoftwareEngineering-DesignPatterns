@@ -10,8 +10,8 @@ public class GarageDoorCommand implements Command{
 
 	@Override
 	public String execute() {
-		garagerDoor.up();
+		garagerDoor.down();
 		garagerDoor.stop();
-		return "Garegem: Aberta";
+		return "Garegem: Fechado";
 	}
 }

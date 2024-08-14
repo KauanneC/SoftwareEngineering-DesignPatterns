@@ -11,6 +11,6 @@ public class SecurityControlCommand implements Command{
 	@Override
 	public String execute() {
 		securityControl.arm();
-		return "O alarme estava ligado";
+		return "Alarme: ligado";
 	}
 }

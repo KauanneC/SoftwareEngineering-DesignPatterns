@@ -10,9 +10,8 @@ public class SoundCommand implements Command{
 
 	@Override
 	public String execute() {
-		sound.on();
-		sound.setDvd();
-		return "CD: Existe um DVD no dispositivo";
+		sound.off();
+		return "Som: desligado";
 	}
 	
 }

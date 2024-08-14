@@ -11,7 +11,7 @@ public class TvCommand implements Command{
 	@Override
 	public String execute() {
 		tv.on();
-		tv.setInputChannel();
-		return "O canal atual é o 3";
+		tv.setVolume();
+		return "Televisão: ligada com o volume em 45";
 	}
 }

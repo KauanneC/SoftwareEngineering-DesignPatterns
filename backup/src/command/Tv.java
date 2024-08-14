@@ -3,7 +3,7 @@ package command;
 public class Tv {
 	
 	public void on() {
-		System.out.println("Ligando a televisão");
+		System.out.println("Televisão: ligada");
 	}
 	
 	public void off() {
@@ -15,6 +15,6 @@ public class Tv {
 	}
 	
 	public void setVolume() {
-		System.out.println("Ajustando volume");
+		System.out.println("Televisão: volume em 45");
 	}
 }

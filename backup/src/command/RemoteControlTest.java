@@ -7,6 +7,13 @@ public class RemoteControlTest {
 
 		SimpleRemoteControl remote = new SimpleRemoteControl();
 		
+		// Alarme de Segurança
+		SecurityControl alarm = new SecurityControl();
+		SecurityControlCommand alarmOn = new SecurityControlCommand(alarm);
+		
+		remote.setCommand(alarmOn);
+		remote.buttonWasPressed();
+		
 		// Luz
 		Light light = new Light();
 		LightCommand lightOn = new LightCommand(light);
@@ -14,31 +21,45 @@ public class RemoteControlTest {
 		remote.setCommand(lightOn);
 		remote.buttonWasPressed();
 		
+		// TV
+		Tv television = new Tv();
+		TvCommand televisionOn = new TvCommand(television);
+		
+		remote.setCommand(televisionOn);
+		remote.buttonWasPressed();
+		
+		// Ventilador de Teto
+		CeilingFan ceiling = new CeilingFan();
+		CeilingFanCommand ceilingOn = new CeilingFanCommand(ceiling);
+		
+		remote.setCommand(ceilingOn);
+		remote.buttonWasPressed();
+		
 		// Portão da garagem
 		GarageDoor garage = new GarageDoor();
-		GarageDoorCommand garageOn = new GarageDoorCommand(garage);
+		GarageDoorCommand garageOff = new GarageDoorCommand(garage);
 		
 
-		remote.setCommand(garageOn);
+		remote.setCommand(garageOff);
 		remote.buttonWasPressed();
 		
 		// Som
 		Sound sound = new Sound();
-		SoundCommand soundOn = new SoundCommand(sound);
+		SoundCommand soundOff = new SoundCommand(sound);
 
-		remote.setCommand(soundOn);
+		remote.setCommand(soundOff);
 		remote.buttonWasPressed();
 		
 		// Jacuzi
 		Hottub hottub = new Hottub();
-		HottubCommand hottubOn = new HottubCommand(hottub);
+		HottubCommand hottubOff = new HottubCommand(hottub);
 
-		remote.setCommand(hottubOn);
+		remote.setCommand(hottubOff);
 		remote.buttonWasPressed();
 
-		System.out.println("\nFaltou Energia!!\n");
+		System.out.println("\nFaltou Energia!!");
 		
-		System.out.println("Realizando backup..");
+		System.out.println("Realizando backup...\n");
 
 		backup.load();
 		

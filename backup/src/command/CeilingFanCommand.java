@@ -11,6 +11,6 @@ public class CeilingFanCommand implements Command{
 	@Override
 	public String execute() {
 		ceilingFan.medium();
-		return "O ventilador estava no médio";
+		return "Ventilado: médio";
 	}
 }

@@ -10,8 +10,7 @@ public class HottubCommand implements Command{
 
 	@Override
 	public String execute() {
-		hottub.circulate();
-		hottub.jetsOn();
-		return "A jacuzzi estava ligada";
+		hottub.jetsOff();
+		return "Jacuzzi: desligada";
 	}
 }

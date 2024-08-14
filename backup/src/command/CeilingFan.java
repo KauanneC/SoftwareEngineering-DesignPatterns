@@ -4,17 +4,17 @@ public class CeilingFan {
 	
 	public void high()
 	{
-		System.out.println("Ventilador no alto");
+		System.out.println("Ventilador: alto");
 	}
 	
 	public void medium()
 	{
-		System.out.println("Ventilador no médio");
+		System.out.println("Ventilador: médio");
 	}
 	
 	public void low()
 	{
-		System.out.println("Ventilador no baixo");
+		System.out.println("Ventilador: baixo");
 	}
 	
 	public void off()

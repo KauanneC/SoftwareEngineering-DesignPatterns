@@ -3,7 +3,7 @@ package command;
 public class SecurityControl {
 	
 	public void arm() {
-		System.out.println("Ativando alarme");
+		System.out.println("Alarme: ativado");
 	}
 	
 	public void disarm() {

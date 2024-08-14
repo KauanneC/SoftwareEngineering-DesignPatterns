@@ -4,21 +4,21 @@ public class Hottub {
 	
 	public void circulate()
 	{
-		System.out.println("Jacuzi: Ligando");
+		System.out.println("Jacuzzi: Ligando");
 	}
 	
 	public void jetsOn()
 	{
-		System.out.println("Jacuzi: Ligando jets");
+		System.out.println("Jacuzzi: Ligando jets");
 	}
 	
 	public void jetsOff()
 	{
-		System.out.println("Desligando jets");
+		System.out.println("Jacuzzi: desligando jets");
 	}
 	
 	public void setTemperature()
 	{
-		System.out.println("Ajustando temperatura");
+		System.out.println("Jacuzzi: ajustando temperatura");
 	}	
 }
